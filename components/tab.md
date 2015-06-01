@@ -58,15 +58,15 @@ var tab = new Tab({
   <!-- tab头部容器 -->
   <div class="tab_head j_tab_head">
     <!-- 配置data-hash属性表示如果开启hash的话，hash将是它的值 -->
-    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='aa'>tab1</a>
-    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='bb'>tab2</a>
-    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='ff'>tab3</a>
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='mobile'>话费充值</a>
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='qq'>Q币充值</a>
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='game'>游戏充值</a>
   </div>
   <!-- tab内容容器 -->
   <div class="tab_content j_tab_content">
-    <div class="tab_content_item j_tab_content_item">1</div>
-    <div class="tab_content_item j_tab_content_item">2</div>
-    <div class="tab_content_item j_tab_content_item">3</div>
+    <div class="tab_content_item j_tab_content_item">这是第一个tab</div>
+    <div class="tab_content_item j_tab_content_item">这是第二个tab</div>
+    <div class="tab_content_item j_tab_content_item">这是第三个tab</div>
   </div>
 </div>
 ```
