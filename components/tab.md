@@ -1,6 +1,8 @@
 # Tab组件
 
 ### 代码示例
+[](codepen://Lingyucoder/AsFJh?height=800&theme=0)
+
 
 ### 组件参数
 
