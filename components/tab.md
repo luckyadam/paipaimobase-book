@@ -37,14 +37,14 @@ var Tab = require('tab);
 
 /** 实例化组件，传入参数 */
 var tab = new Tab({
-    container: $('.tab'),
-    head: $('.tab_head'),
-    content: $('.tab_content'),
-    startAt: 0,
-    hash: false,
-    onBeforeSwitch: function () {},
-    onAfterSwitch: function () {},
-    onFirstShow: function () {}
+  container: $('.tab'),
+  head: $('.tab_head'),
+  content: $('.tab_content'),
+  startAt: 0,
+  hash: false,
+  onBeforeSwitch: function () {},
+  onAfterSwitch: function () {},
+  onFirstShow: function () {}
 });
 
 ```
@@ -52,22 +52,20 @@ var tab = new Tab({
 ### 组件HTML结构
 
 ```html
+<!-- tab外层容器 -->
 <div class="tab">
-    <div class="tab_head j_tab_head">
-      <a href="" class="tab_head_item j_tab_head_item" href="javascript:;" data-hash='aa'>
-        tab1
-      </a>
-      <a href="" class="tab_head_item j_tab_head_item" href="javascript:;" data-hash='bb'>
-        tab2
-      </a>
-      <a href="" class="tab_head_item j_tab_head_item" href="javascript:;" data-hash='ff'>
-        tab3
-      </a>
-    </div>
-    <div class="tab_content j_tab_content">
-      <div class="tab_content_item j_tab_content_item">1</div>
-      <div class="tab_content_item j_tab_content_item">2</div>
-      <div class="tab_content_item j_tab_content_item">3</div>
-    </div>
+  <!-- tab头部容器 -->
+  <div class="tab_head j_tab_head">
+    <!-- 配置data-hash属性表示如果开启hash的话，hash将是它的值 -->
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='aa'>tab1</a>
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='bb'>tab2</a>
+    <a href="javascript:;" class="tab_head_item j_tab_head_item" data-hash='ff'>tab3</a>
   </div>
+  <!-- tab内容容器 -->
+  <div class="tab_content j_tab_content">
+    <div class="tab_content_item j_tab_content_item">1</div>
+    <div class="tab_content_item j_tab_content_item">2</div>
+    <div class="tab_content_item j_tab_content_item">3</div>
+  </div>
+</div>
 ```
