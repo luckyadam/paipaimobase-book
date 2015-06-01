@@ -6,7 +6,7 @@
 
 组件库是基于拍拍无线基础库中的模块加载器之上构建出来的，将分为**UI组件**和**功能性组件**两部分，一个组件的基本形式如下
 
-```
+```javascript
 // 定义一个tab组件
 PP.define('tab', function (require) {
 	var Tab = _.Class.extend({
@@ -29,7 +29,7 @@ PP.define('tab', function (require) {
 ```
 我们将按照如下的方式来使用这个组件
 
-```
+```javascript
 // 某业务逻辑内部调用tab
 var Tab = require('tab');
 var tab = new Tab({
