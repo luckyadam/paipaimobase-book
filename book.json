@@ -2,12 +2,5 @@
     "plugins": [
         "codepen"
     ],
-    "pluginsConfig": {
-        "codepen": {
-          "height": 400,
-          "theme": 15631,
-          "description": "somepen",
-          "defaultTab": 'default'
-        }
-    }
+    "pluginsConfig": {}
 }
