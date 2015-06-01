@@ -4,7 +4,7 @@
     ],
     "pluginsConfig": {
         "codepen": {
-            "height": 400,
+            "height": 300,
             "theme": 1,
             "description": "code show",
             "defaultTab": "default"
