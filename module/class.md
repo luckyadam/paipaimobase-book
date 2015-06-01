@@ -7,39 +7,39 @@
 ```javascript
 // 构建类
 var People = _.Class.extend({
-	// 类静态成员
-	statics: {
-		
-	},
-	
-	// 构造函数，若不需要可缺省
-	construct: function (name) {
-		this.name = name;
-	},
-	
-	talk: function () {
-		console.log('My name is ' + this.name + '!');
-	}
-	
-	// 其他成员方法
-	...
+  // 类静态成员
+  statics: {
+    	
+  },
+
+  // 构造函数，若不需要可缺省
+  construct: function (name) {
+	this.name = name;
+  },
+
+  talk: function () {
+	console.log('My name is ' + this.name + '!');
+  }
+
+  // 其他成员方法
+  ...
 
 });
 
 // 继承People
 var Man = People.extend({
 
-	construct: function (name, age) {
-		// 执行父类的方法
-		this.super.call(this, arguments);
-	},
+  construct: function (name, age) {
+	// 执行父类的方法
+	this.super.call(this, arguments);
+  },
+
+  walk: function () {
+	console.log('I am ' + this.age + ' years old, I can walk!');
+  }
 	
-	walk: function () {
-		console.log('I am ' + this.age + ' years old, I can walk!');
-	}
-	
-	// 其他成员方法
-	...
+  // 其他成员方法
+  ...
 });
 
 // 使用
