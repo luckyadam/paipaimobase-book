@@ -1,7 +1,7 @@
 # Tab组件
 
-### 代码示例
-[codepen](codepen://luckyadam/GJreOV)
+### 一个例子
+[tab](codepen://luckyadam/GJreOV)
 
 ### 组件参数
 
@@ -16,7 +16,7 @@
 | ``onAfterSwitch`` | tab切换后触发的操作 | ``Function`` | 是 | ``function(){}`` |
 | ``onFirstShow`` | 每个tab首次show出来的时候触发的操作 | ``Function`` | 是 | ``function(){}`` |
 
-### API
+### 调用方法
 
 | 方法名 | 描述 | 参数 | 返回值 |
 | -- | -- | -- | -- |
