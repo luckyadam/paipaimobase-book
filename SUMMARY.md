@@ -5,6 +5,3 @@
    * [module.js](module/module.md)
    * [class.js](module/class.md)
 * [components](components/README.md)
-   * [uri](components/uri.md)
-   * [tab](components/tab.md)
-
