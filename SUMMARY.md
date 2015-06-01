@@ -1,6 +1,9 @@
 # Summary
 
 * [简介](README.md)
-* [module](README.md)
-* module.js
+* [module](module/README.md)
+   * [module.js](module/module.md)
+   * [class.js](module/class.md)
+* [components](components/README.md)
+   * [tab](components/tab.md)
 
