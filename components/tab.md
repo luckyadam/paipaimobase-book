@@ -1,7 +1,7 @@
 # Tab组件
 
 ### 代码示例
-[codepen](codepen://luckyadam/GJreOV?height=800&theme=0)
+[](codepen://luckyadam/GJreOV?height=800&theme=0)
 
 ### 组件参数
 
