@@ -1,8 +1,7 @@
 # Tab组件
 
 ### 代码示例
-[](codepen://Lingyucoder/AsFJh?height=800&theme=0)
-
+[codepen_embed height="252" theme_id="15631" slug_hash="GJreOV" default_tab="result" user="luckyadam"]See the Pen <a href='http://codepen.io/luckyadam/pen/GJreOV/'>GJreOV</a> by Li,Weitao (<a href='http://codepen.io/luckyadam'>@luckyadam</a>) on <a href='http://codepen.io'>CodePen</a>.[/codepen_embed]
 
 ### 组件参数
 
