@@ -21,7 +21,7 @@
 
 使用方式如下
 
-```
+```javascript
 /** 
  * 定义一个模块
  * 模块方法接受3个参数 require exports module
@@ -52,7 +52,7 @@ PP.define('module', function (require, exports, module) {
 
 在模块定义内部可以使用参数``require``来同步引用模块（见定义模块），而在外部则可以使用``PP.require``来同步引用模块
 
-```
+```javascript
 var Pager = PP.require('pager');
 ```
 
@@ -60,7 +60,7 @@ var Pager = PP.require('pager');
 
 在模块定义内部可以通过``require.async``来异步加载模块，它支持同时加载多个模块，接受2个参数，第一个参数可以是模块id或是模块id数组，第二个参数是回调方法，它在接受模块id后会通过一些配置好的规则生成完整的文件绝对地址，然后动态创建标签，加载脚本。
 
-```
+```javascript
 // 单独引用一个模块
 require.async('module', function (module) {
 
@@ -76,8 +76,7 @@ require.async(['module1', 'module2'], function (module1, module2) {
 
 通过``PP.use``方法来在外部使用模块，它支持同时加载多个模块，接受2个参数，第一个参数可以是模块id或是模块id数组，第二个参数是回调方法。如果要引用的模块已经存在，会是同步引用，反之，则会是异步加载。
 
-```
-
+```javascript
 // 单独引用一个模块
 PP.use('module', function (module) {
 
