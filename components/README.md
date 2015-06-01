@@ -11,22 +11,22 @@
 ```javascript
 // 定义一个tab组件
 PP.define('tab', function (require) {
-	var Tab = _.Class.extend({
-		// 组件类静态成员
-		statics: {
-		},
-		
-		// 构造函数
-		construct: function (options) {
-		},
-		
-		// 切换tab 
-		switchTo: function (index) {
-		
-		}
-	});
+  var Tab = _.Class.extend({
+	// 组件类静态成员
+	statics: {
+	},
 	
-	return Tab;
+	// 构造函数
+	construct: function (options) {
+	},
+	
+	// 切换tab 
+	switchTo: function (index) {
+	
+	}
+  });
+
+  return Tab;
 });
 ```
 我们将按照如下的方式来使用这个组件
