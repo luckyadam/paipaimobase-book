@@ -33,7 +33,7 @@
  * 在某业务逻辑内部引用组件
  * 若在外部引用则是，PP.require
  */
-var Tab = require('tab);
+var Tab = require('tab');
 
 /** 实例化组件，传入参数 */
 var tab = new Tab({
