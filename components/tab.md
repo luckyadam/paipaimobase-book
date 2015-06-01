@@ -16,7 +16,7 @@
 | ``onAfterSwitch`` | tab切换后触发的操作 | ``Function`` | 是 | ``function(){}`` |
 | ``onFirstShow`` | 每个tab首次show出来的时候触发的操作 | ``Function`` | 是 | ``function(){}`` |
 
-### 调用方法
+### 组件方法
 
 | 方法名 | 描述 | 参数 | 返回值 |
 | -- | -- | -- | -- |
