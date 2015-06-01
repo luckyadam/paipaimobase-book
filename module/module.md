@@ -30,20 +30,20 @@
  * module指向当前模块，包含一些信息
  */
 PP.define('module', function (require, exports, module) {
-	// 同步引用一个模块
-	var Pager = require('pager');
-	var pager = new Pager();
-	function People () {
-	}
-	
-	People.prototype = {};
-	// 对外暴露的方式
-	// 挂载在exports上
-	exports.People = People;
-	
-	// 直接return
-	//return People;
-	// 不建议覆写exports
+  // 同步引用一个模块
+  var Pager = require('pager');
+  var pager = new Pager();
+  function People () {
+  }
+
+  People.prototype = {};
+  // 对外暴露的方式
+  // 挂载在exports上
+  exports.People = People;
+
+  // 直接return
+  //return People;
+  // 不建议覆写exports
 });
 
 ```
