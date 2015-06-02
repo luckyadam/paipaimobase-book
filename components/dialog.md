@@ -58,9 +58,8 @@ dialog.addBtn({
   text: '道士'
 });
 ```
----
 
-# Alert组件
+## Alert组件
 
 > Alert是一个警告框组件，通常情况下它只有一个按钮，Alert是基于Dialog组件的，是对Dialog的一层封装。
 
@@ -95,9 +94,8 @@ var alert = new Alert({
   message: '一些信息，只能是string'
 });
 ```
----
 
-# Confirm组件
+## Confirm组件
 
 > Confirm是一个确认框组件，通常情况下它有二个按钮，Confirm是基于Dialog组件的，是对Dialog的一层封装。
 
