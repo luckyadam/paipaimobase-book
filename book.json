@@ -9,6 +9,10 @@
             "theme": 1,
             "description": "code show",
             "defaultTab": "default"
+        },
+        "duoshuo": {
+            "short_name": "paipaimobase",
+            "theme": "default"
         }
     }
 }
