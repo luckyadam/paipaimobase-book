@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "codepen"
+        "codepen",
+        "duoshuo"
     ],
     "pluginsConfig": {
         "codepen": {
