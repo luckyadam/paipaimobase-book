@@ -1,5 +1,7 @@
 # Tab组件
 
+>  Tab在web中非常常见，这个组件就是提供了Tab功能，但同时它还有一些扩展，比如增加了hash功能，支持页面hash，而且支持初始化定位Tab，功能比较完善。
+
 ### 一个例子
 [tab](codepen://luckyadam/GJreOV)
 
