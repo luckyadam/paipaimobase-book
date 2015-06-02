@@ -8,4 +8,5 @@
     * [uri](components/uri.md)
     * [tab](components/tab.md)
     * [overlay](components/overlay.md)
+    * [toast](components/toast.md)
 
