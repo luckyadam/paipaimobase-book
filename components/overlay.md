@@ -2,13 +2,15 @@
 
 ### 一个例子
 
+[overlay](codepen://luckyadam/ZGeEQL)
+
 ### 组件参数
 
 | 参数名称 | 描述 | 类型 | 是否必须 | 默认值 |
 | -- | -- | -- | -- | -- |
 | ``content`` | 遮罩层要包含的内容 | ``String`` ``HTMLElement`` ``Zepto`` | 否 | 空 |
 | ``mask`` | 是否显示遮罩层 | ``Boolean`` | 否 | ``true`` |
-| ``modal`` | 是否是模态的 | ``Boolean`` | 否 | ``true`` |
+| ``modal`` | 是否是模态的，即点击遮罩层时是否会主动消失 | ``Boolean`` | 否 | ``true`` |
 
 ### 组件方法
 
@@ -22,3 +24,18 @@
 | ``destroy`` | 销毁组件，同时会解绑事件 | 无 | 无 |
 
 ### 使用方式
+
+```javascript
+/** 
+ * 在某业务逻辑内部引用组件
+ * 若在外部引用则是，PP.require
+ */
+var Overlay = require('overlay');
+
+/** 实例化组件，传入参数 */
+var overlay = new Overlay({
+  content: $('.some_content'),
+  mask: true,
+  modal: false
+});
+```
