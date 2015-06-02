@@ -5,16 +5,16 @@
 
 ### 组件参数
 
-| 参数名称 | 描述 | 类型 | 是否可选 | 默认值 |
+| 参数名称 | 描述 | 类型 | 是否必须 | 默认值 |
 | -- | -- | -- | -- | -- |
-| ``container`` | 指定tab容器 | ``String`` ``HTMLElement`` ``Zepto`` | **否** | ``null`` |
-| ``head`` | tab的头部容器 | ``String`` ``HTMLElement`` ``Zepto`` | 是 | ``null`` |
-| ``content`` | tab的内容容器 | ``String`` ``HTMLElement`` ``Zepto`` | 是 | ``null`` |
-| ``startAt`` | 起始tab页 | ``String`` ``int`` | 是 | ``0`` |
-| ``hash`` | 是否启用hash标记tab | ``Boolean`` | 是 | ``false`` |
-| ``onBeforeSwitch`` | tab切换前触发的操作 | ``Function`` | 是 | ``function(){}`` |
-| ``onAfterSwitch`` | tab切换后触发的操作 | ``Function`` | 是 | ``function(){}`` |
-| ``onFirstShow`` | 每个tab首次show出来的时候触发的操作 | ``Function`` | 是 | ``function(){}`` |
+| ``container`` | 指定tab容器 | ``String`` ``HTMLElement`` ``Zepto`` | **是** | ``null`` |
+| ``head`` | tab的头部容器 | ``String`` ``HTMLElement`` ``Zepto`` | 否 | ``null`` |
+| ``content`` | tab的内容容器 | ``String`` ``HTMLElement`` ``Zepto`` | 否 | ``null`` |
+| ``startAt`` | 起始tab页 | ``String`` ``int`` | 否 | ``0`` |
+| ``hash`` | 是否启用hash标记tab | ``Boolean`` | 否 | ``false`` |
+| ``onBeforeSwitch`` | tab切换前触发的操作 | ``Function`` | 否 | ``function(){}`` |
+| ``onAfterSwitch`` | tab切换后触发的操作 | ``Function`` | 否 | ``function(){}`` |
+| ``onFirstShow`` | 每个tab首次show出来的时候触发的操作 | ``Function`` | 否 | ``function(){}`` |
 
 ### 组件方法
 
