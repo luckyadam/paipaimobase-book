@@ -9,4 +9,5 @@
     * [tab](components/tab.md)
     * [overlay](components/overlay.md)
     * [toast](components/toast.md)
+    * [dialog](components/dialog.md)
 
