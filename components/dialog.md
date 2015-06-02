@@ -1,6 +1,6 @@
 # Dialog组件
 
->  对话框应该是web中常见的功能了，到处都可以见到各种各样的提示框，这里提供了一个基础的对话框类Dialog，它需要引用overlay组件，适用于开发过程中的扩展需求，同时基于Dialog提供了[Alert](#alert)和[Confirm](#confirm)两个非常实用的封装。
+>  对话框应该是web中非常常见的功能了，到处都可以见到各种各样的提示框，这里提供了一个基础的对话框类Dialog，它需要引用overlay组件，适用于开发过程中的扩展需求，同时基于Dialog提供了[Alert](#alert)和[Confirm](#confirm)两个非常实用的封装。
 
 ### 一个例子
 [dialog](codepen://luckyadam/gpmbgw?height=360)
@@ -57,7 +57,7 @@ dialog.addBtn({
   text: '道士'
 });
 ```
-<a name="alert"></a>
+<a name="alert" href=""></a>
 ## Alert组件
 
 > Alert是一个警告框组件，通常情况下它只有一个按钮，Alert是基于Dialog组件的，是对Dialog的一层封装。
@@ -94,7 +94,7 @@ var alert = new Alert({
 });
 ```
 
-<a name="confirm"></a>
+<a name="confirm" href=""></a>
 ## Confirm组件
 
 > Confirm是一个确认框组件，通常情况下它有二个按钮，Confirm是基于Dialog组件的，是对Dialog的一层封装。
