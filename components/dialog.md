@@ -3,7 +3,7 @@
 >  对话框应该是web中非常常见的功能了，到处都可以见到各种各样的提示框，这里提供了一个基础的对话框类Dialog，它需要引用overlay组件，适用于开发过程中的扩展需求，同时基于Dialog提供了Alert Confirm两个非常实用的封装。
 
 ### 一个例子
-[tab](codepen://luckyadam/gpmbgw?height=360)
+[dialog](codepen://luckyadam/gpmbgw?height=360)
 
 ### 组件参数
 
@@ -55,5 +55,81 @@ dialog.addBtn({
   text: '战士'
 }).addBtn({
   text: '道士'
+});
+```
+---
+
+# Alert组件
+
+> Alert是一个警告框组件，通常情况下它只有一个按钮，Alert是基于Dialog组件的，是对Dialog的一层封装。
+
+### 一个例子
+[alert](codepen://luckyadam/MwpYEq?height=360)
+
+### 组件参数
+
+| 参数名称 | 描述 | 类型 | 是否必须 | 默认值 |
+| -- | -- | -- | -- | -- |
+| ``title`` | 标题 | ``String`` | 否 | 空 |
+| ``message`` | 简单信息 | ``String`` | 否 | 空 |
+| ``okBtnText`` | ok按钮的文案 | ``String`` | 否 | 确定 |
+| ``onOk`` | 点击ok按钮后要做的操作 | ``String`` | 否 | ``function () {}`` |
+
+### 组件方法
+
+无
+
+### 使用方式
+
+```javascript
+/** 
+ * 在某业务逻辑内部引用组件
+ * 若在外部引用则是，PP.require
+ */
+var Alert = require('alert');
+
+/** 实例化组件，传入参数 */
+var alert = new Alert({
+  title: '标题',
+  message: '一些信息，只能是string'
+});
+```
+---
+
+# Confirm组件
+
+> Confirm是一个确认框组件，通常情况下它有二个按钮，Confirm是基于Dialog组件的，是对Dialog的一层封装。
+
+### 一个例子
+[confirm](codepen://luckyadam/jPBEaz?height=360)
+
+### 组件参数
+
+| 参数名称 | 描述 | 类型 | 是否必须 | 默认值 |
+| -- | -- | -- | -- | -- |
+| ``title`` | 标题 | ``String`` | 否 | 空 |
+| ``message`` | 简单信息 | ``String`` | 否 | 空 |
+| ``okBtnText`` | ok按钮的文案 | ``String`` | 否 | 确定 |
+| ``cancelBtnText`` | cancel按钮的文案 | ``String`` | 否 | 取消 |
+| ``onOk`` | 点击ok按钮后要做的操作 | ``String`` | 否 | ``function () {}`` |
+| ``onCancel`` | 点击cancel按钮后要做的操作 | ``String`` | 否 | ``function () {}`` |
+
+### 组件方法
+
+无
+
+### 使用方式
+
+```javascript
+/** 
+ * 在某业务逻辑内部引用组件
+ * 若在外部引用则是，PP.require
+ */
+var Confirm = require('confirm');
+
+/** 实例化组件，传入参数 */
+var confirm = new Confirm({
+  title: '标题',
+  message: '一些信息，只能是string'
 });
 ```
