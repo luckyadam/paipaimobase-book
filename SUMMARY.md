@@ -7,4 +7,5 @@
 * [组件库](components/README.md)
     * [uri](components/uri.md)
     * [tab](components/tab.md)
+    * [overlay](components/overlay.md)
 
