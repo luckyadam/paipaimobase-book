@@ -6,11 +6,11 @@
 
 组件库是基于拍拍无线基础库中的模块加载器之上构建出来的，将分为**UI组件**和**功能性组件**两部分，定义组件的基本形式如下
 
-```
+```javascript
 /**
  * 定义一个的tab组件
  * 多例，返回类
- * /
+ */
 PP.define('tab', function (require) {
   var Tab = _.Class.extend({
     // 组件类静态成员
@@ -32,7 +32,7 @@ PP.define('tab', function (require) {
 /**
  * 定义一个的cookie操作组件
  * 单例，允许直接返回一个对象
- * /
+ */
 PP.define('cookie', function (require) {
   function setCookie () {
 
@@ -52,7 +52,7 @@ PP.define('cookie', function (require) {
 ```
 我们将按照如下的方式来使用组件
 
-```
+```javascript
 // 某业务逻辑内部调用tab
 var Tab = require('tab');
 var tab = new Tab({
