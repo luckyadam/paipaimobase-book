@@ -2,7 +2,7 @@
 
 > 返回顶部组件，会在页面中插入一个返回顶部的按钮。
 
-> 需要依赖Util库，因为[滚动页面的方法](http://labs.qiang.it/h5/paipaimo-base/guide/util/util.html#scrolltoposition)已经封装在Util中。
+> 需要依赖Util库，因为[滚动页面的方法](http://labs.qiang.it/h5/paipaimo-base/guide/util/index.html#scrolltoposition)已经封装在Util中。
 
 ### 一个例子
 
