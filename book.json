@@ -1,4 +1,8 @@
 {
+    "title": "拍拍无线基础库",
+    "description": "base",
+	"language": "zh-CN",
+	"gitbook": "2.x.x",
     "plugins": [
         "codepen",
         "duoshuo"
